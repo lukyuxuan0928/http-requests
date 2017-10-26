@@ -17,7 +17,6 @@ Here I'm using the tornado web api service to implement that how we use the simp
 First, you need to initial the server ip address as a url, and pass the params what you want.
 
 ```
-    # Initial variable
     ip_addr = "localhost"   # ip address
     port = 5124             # port
     url = 'http://%s:%d/api/do' %(ip_addr, port)
